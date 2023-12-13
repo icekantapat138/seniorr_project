@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1023121357850",
+    "firebase_url": "https://classroom2-70191-default-rtdb.firebaseio.com",
+    "project_id": "classroom2-70191",
+    "storage_bucket": "classroom2-70191.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023121357850:android:b03c8064004ce3cf22e5a3",
+        "android_client_info": {
+          "package_name": "ku.cs.classroom_2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVCInbEKyaHAW2s_sCWIIJH-AeDHPmIr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

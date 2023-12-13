@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">classroom</string>
+    <string name="fullname">Fullname</string>
+    <string name="nisitid">Nisit ID</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="loginhere">Already have an account, Login</string>
+    <string name="signup">SignUp</string>
+    <string name="signuphere">Create a new Account? SignUp</string>
+    <string-array name="role">
+        <item>Choose Role</item>
+        <item>Professor</item>
+        <item>Nisit</item>
+    </string-array>
+    <string-array name="status">
+        <item>Choose status</item>
+        <item>Check</item>
+        <item>Not-Check</item>
+    </string-array>
+</resources>

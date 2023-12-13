@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Classroom_2"
+        tools:targetApi="31">
+        <activity
+            android:name=".Controller.Nisit.CheckNisitAttendClass"
+            android:exported="false" />
+        <activity
+            android:name=".Controller.Profressor.ReviewStudyLeave"
+            android:exported="false" />
+        <activity
+            android:name=".Controller.Profressor.CheckFile"
+            android:exported="false" />
+        <activity
+            android:name=".Controller.Profressor.CheckFileStudyLeave"
+            android:exported="false" />
+        <activity
+            android:name=".Controller.Nisit.CheckScoreSystem"
+            android:exported="false" />
+        <activity
+            android:name=".Controller.Profressor.AddScoreSystem"
+            android:exported="false" />
+        <activity
+            android:name=".Controller.Nisit.SendStudyLeaveDetail"
+            android:exported="false" />
+        <activity
+            android:name=".Controller.Profressor.CheckknameList"
+            android:exported="false" />
+        <activity
+            android:name=".Controller.Nisit.CheckScore"
+            android:exported="false" />
+        <activity
+            android:name=".Controller.Profressor.AddScore"
+            android:exported="false" />
+        <activity
+            android:name=".Controller.Profressor.CheckStudyLeave"
+            android:exported="false" />
+        <activity
+            android:name=".Controller.Nisit.SendStudyLeave"
+            android:exported="false" />
+        <activity
+            android:name=".Controller.Nisit.ChecknameNisitSystem"
+            android:exported="false" />
+        <activity
+            android:name=".Controller.Nisit.ChecknameNisit"
+            android:exported="false" />
+        <activity
+            android:name=".Controller.Nisit.RegisterCourseAdd"
+            android:exported="false" />
+        <activity
+            android:name=".Controller.Nisit.RegisterCourse"
+            android:exported="false" />
+        <activity
+            android:name=".Controller.Profressor.SystemOpen"
+            android:exported="false" />
+        <activity
+            android:name=".Controller.Profressor.CheckCourseOpen"
+            android:exported="false" />
+        <activity
+            android:name=".Controller.Profressor.OpenCheckname"
+            android:exported="false" />
+        <activity
+            android:name=".Controller.Profressor.OpenCourse"
+            android:exported="false" />
+        <activity
+            android:name=".Controller.Profressor.CheckNisitCheckname"
+            android:exported="false" />
+        <activity
+            android:name=".Controller.Profressor.ProfessorEdit"
+            android:exported="false" />
+        <activity
+            android:name=".Controller.Nisit.HomeNisit"
+            android:exported="false" />
+        <activity
+            android:name=".Controller.Profressor.HomeProfressor"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
